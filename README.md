@@ -10,3 +10,6 @@ Workflows Process:
 2. This will unpack both vendor_boot image from TWRP's $OUT folder and stock vendor_boot image using magiskboot.
 3. This will copy the vendor_ramdisk_recovery.cpio of vendor_boot image from TWRP and replace vendor_ramdisk_recovery.cpio of stock vendor_boot image.
 4. This will repack the stock vendor_boot image that has new vendor_ramdisk_recovery.cpio and upload as .tar archive for ODIN flashing.
+
+## Credit to the workflow creator
+[cd-Crypton](https://github.com/cd-Crypton)
